@@ -1,0 +1,36 @@
+{
+  "name": "onedionys-api-rate-limiting-handler",
+  "version": "1.0.0",
+  "description": "One Dionys (API Rate Limiting Handler) - Functions to manage rate limiting when interacting with APIs, prevent abuse and ensure service availability.",
+  "main": "src/rateLimitHandler.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onedionys/onedionys-api-rate-limiting-handler.git"
+  },
+  "keywords": [
+    "onedionys",
+    "tea",
+    "package-manager",
+    "api-rate-limiting-handler"
+  ],
+  "author": "One Dionys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onedionys/onedionys-api-rate-limiting-handler/issues"
+  },
+  "homepage": "https://github.com/onedionys/onedionys-api-rate-limiting-handler#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21"
+  }
+}
